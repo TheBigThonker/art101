@@ -3,10 +3,10 @@
 // Date: 24 October 2023
 
 // Define Variables:
-make = "Cungadero";
-model = "Bolt";
-color = "Red";
-year = 1969;
+make = "Ford";
+model = "Freestyle";
+color = "Black";
+year = 2005;
 
 //calculate
 age = 2023 - year;
