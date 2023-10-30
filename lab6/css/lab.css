@@ -7,3 +7,11 @@
   border: solid 1px #888;
   background-color: #14b44c;
 }
+#fordfreestyle {
+  max-width: 500px;
+}
+.flex-container {
+  display: flex;
+  justify-content: left;
+
+}
