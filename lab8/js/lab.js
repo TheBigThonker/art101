@@ -11,14 +11,15 @@ console.log("My array: ", myArray);
 function multiply (x, y) {
     console.log("Numbers received: ", x, y);
     var product = x * y;
+    console.log(product);
     return product
 }
 //testing with a few numbers
 result = multiply(4,9);
-console.log("4 * 9 = ", );
+console.log("4 * 9 = ", result);
 
 result = multiply(2,8);
-console.log("2 * 8 = ", );
+console.log("2 * 8 = ", result);
 
 //now, testing function with the array.
 console.log("Now, testing the array.")
@@ -27,6 +28,7 @@ myArray.map(multiply);
 //next, running/creating the callback function
 myArray.map(function(x) {
     console.log("Callback:numbers received: ", x);
+    console.log(x / 1.5);
     return x / 1.5;
 }
 );
