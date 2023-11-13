@@ -1,0 +1,20 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #14b44c;
+  }
+  .results-section {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #4e4e4e;
+    background-color: #54c97d;
+  }
+  .special {
+    background-color: rgb(188, 188, 227);
+    border: dotted 50px rgb(98, 22, 22);
+    color: rgb(137, 94, 101);
+    font-weight: bold;
+}
+
