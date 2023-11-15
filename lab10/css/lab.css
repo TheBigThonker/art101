@@ -1,0 +1,23 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #14b44c;
+  }
+  .results-section {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #4e4e4e;
+    background-color: #54c97d;
+  }
+  .text p {
+    display: inline-block;
+    max-width: 60%;
+    margin: 3px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: darkgray;
+    color: white;
+    font-family: sans-serif;
+}
