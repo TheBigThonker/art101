@@ -3,7 +3,8 @@
 // Date: 14 November 2023
 // This is the js for lab 10, which requires jQuery to function.
 
-
+// Experiment: summon a promt.
+//var oneside = output.prompt ("Say Something.");
 
 // Randome text generator:
 function generateRandomText() {
