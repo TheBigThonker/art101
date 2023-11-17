@@ -20,10 +20,14 @@ function generateRandomText() {
 
 // The click listener for button
 $("#make-convo").click(function(){
-    // Get the new fake dialogue
+    // Get the user input
+    var something = prompt("Say something")
+    // Append the input to a text bubble on the left      
+    $('#output').append('<div class="left"><p>' + something + '</p></div>')
+    // Generate the latin
     const newText = generateRandomText();
-    // Append the new text div to the output div
-    $("#output").append('<div class="text"><p>' + newText + '</p></div>');
+    // Append the new text div to the output div on the right
+    $("#output").append('<div class="right"><p>' + newText + '</p></div>');
 });
 
 

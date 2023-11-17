@@ -11,13 +11,38 @@
     border: solid 1px #4e4e4e;
     background-color: #54c97d;
   }
-  .text p {
-    display: inline-block;
+  .left {
+    clear: both;
+    text-align: left;
+    display: block;
     max-width: 60%;
     margin: 3px;
     padding: 5px 10px;
     border-radius: 15px;
-    background-color: darkgray;
+    background-color: #28894a;
     color: white;
     font-family: sans-serif;
+}
+
+.right {
+  clear: both;
+  text-align: right;
+  float: right;
+  display: block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #c5d4ca;
+  color: white;
+  font-family: sans-serif;
+}
+
+#output {
+  border-radius: 12px;
+  clear: both;
+  padding: 50px;
+  margin-bottom: 60px;
+  overflow: auto;
+  background-color: #51ad83;
 }
