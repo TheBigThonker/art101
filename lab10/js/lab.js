@@ -1,6 +1,6 @@
 // Lab 10 - JavaScript for the Web
 // Author: Parker Ehlers
-// Date: 14 November 2023
+// Date: 16 November 2023
 // This is the js for lab 10, which requires jQuery to function.
 
 // Experiment: summon a promt.
