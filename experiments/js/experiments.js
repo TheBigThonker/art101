@@ -6,6 +6,12 @@ console.log("Javascript is working!")
 
 $("#my-button").click(function(){
     
-    var name = prompt("Name Please: ")
-    $('#title').html('Hello ' + name)
+    var name = prompt("Name Please: ");
+    $('#title').html('Hello ' + name);
+});
+
+$("#inputbutton").click(function(){
+   var name = $("#input").val() 
+   console.log(name)
+   $('#title').html('Hello ' + name)
 });
