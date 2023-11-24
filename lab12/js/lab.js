@@ -2,13 +2,12 @@
 // Author: Parker Ehlers
 // Date: 23 November 2023
 // This is the js for lab 12, which requires jQuery to function.
-
 // Create the sorting hat function. I'm a Ravenclaw. 
 function sortingHat(str) {
     len = str.length;
     mod = len % 5;
     // use the mod to determine the house
-    // I'm a
+    // I'm a Ravenclaw, though I experimented with the code and added a house, making me Hufflepuff. 
     if (mod == 0) {
         return "Gryffindor. The House of the brave, the chivalrous, the daring, those with nerve."
     } 
@@ -25,10 +24,8 @@ function sortingHat(str) {
         return "Sneeflesnorp. The House of the...wait, this doesn't sound right."
     }
 }
-
 // now, the click listener, which is notably different from previous assignments.
-// this appears to be a bit more sophisticated. Nevermind, I can't get it to work.
-
+// this appears to be a bit more sophisticated. Nevermind, I can't get it to work
 //var myButton = document.getElementById("button");
 //myButton.addEventListener ("click", funtion(), {
  // var fullName = document.getElementById("input").value,
