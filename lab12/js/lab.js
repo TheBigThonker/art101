@@ -6,22 +6,26 @@
 // Create the sorting hat function. I'm a Ravenclaw. 
 function sortingHat(str) {
     len = str.length;
-    mod = len % 4;
+    mod = len % 5;
     // use the mod to determine the house
     // I'm a
     if (mod == 0) {
-        return "Gryffindor"
+        return "Gryffindor. The House of the brave, the chivalrous, the daring, those with nerve."
     } 
     else if (mod == 1) {
-        return "Ravenclaw"
+        return "Ravenclaw. The House of the intelligent, the witty, the knowledgeable, the creative, and the curious."
     } 
     else if (mod == 2) {
-        return "Slytherin"
+        return "Slytherin. The House of the ambitious, the cunning, self-preserving, the leaders, the resourceful."
     } 
     else if (mod == 3) {
-        return "Hufflepuff"
+        return "Hufflepuff. The House of the hard-working, the patient, the fair, the loyal, the dedicated."
     } 
+    else if (mod == 4) {
+        return "Sneeflesnorp. The House of the...wait, this doesn't sound right."
+    }
 }
+
 // now, the click listener, which is notably different from previous assignments.
 // this appears to be a bit more sophisticated. Nevermind, I can't get it to work.
 
