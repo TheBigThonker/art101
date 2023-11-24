@@ -19,3 +19,12 @@ $("#submit").click(function(){
     // Append the new div to the output div
     $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
+
+// now, the click listener, which is notably different from previous assignments.
+// this appears to be a bit more sophisticated. 
+
+var myButton = document.getElementById("button");
+myButton.addEventListener ("click", funtion() {
+  var name = document.getElementById("input").value;
+  var house = 
+})
