@@ -5,6 +5,8 @@
 // Create the FizzBuzz function for the lab
 
 // Create the FizzBuzz program itself
+function fizzBuzzBoom (){
+    console.log("hello")
     for (var index=1; index<=200; index++){
         var longString, index;
     if (index % 105 == 0) { 
@@ -33,4 +35,4 @@
     }
     
     }
-    $("#output").html(longString);
+    $("#output").html(longString);}
