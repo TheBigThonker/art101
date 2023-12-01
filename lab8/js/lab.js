@@ -8,9 +8,9 @@ console.log("My array: ", myArray);
 
 
 //now, creating the function
-function multiply (x, y) {
-    console.log("Numbers received: ", x, y);
-    var product = x * y;
+function multiply (a, b) {
+    console.log("Numbers received: ", a, b);
+    var product = a * b;
     console.log(product);
     return product
 }
@@ -26,9 +26,9 @@ console.log("Now, testing the array.")
 myArray.map(multiply);
 
 //next, running/creating the callback function
-myArray.map(function(x) {
-    console.log("Callback:numbers received: ", x);
-    console.log(x / 1.5);
-    return x / 1.5;
+myArray.map(function(a) {
+    console.log("Callback:numbers received: ", a);
+    console.log(a / 1.5);
+    return a / 1.5;
 }
 );
