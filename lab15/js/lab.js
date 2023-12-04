@@ -2,11 +2,14 @@
 // Author: Parker Ehlers
 // Date: 3 December 2023
 // This is the js for lab 15, which requires jQuery to function.
-// properly utilize AJAX
+// properly utilize AJAX. Help from Maile as
+// I was home from section with covid.
 
 
-$(document).ready(function (){
+$(document).ready(function (){ 
+    //the event listener
     $("#activate").on("click", function() {
+        //The core ajax
         $.ajax({ 
             url: "https://yesno.wtf/api", 
             method: "GET",
@@ -15,6 +18,7 @@ $(document).ready(function (){
         })
     .done(
         function(many) {
+            //adds the image and the answer
             $("#output").append(many.answer);
             $("#output").after("<img src="+many.image+">");
         })
