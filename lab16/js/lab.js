@@ -32,7 +32,7 @@ $.ajax({
        
         $("#output").append(comicObj.title+"</br>");
         $("#output").append(comicObj.month+"-"+comicObj.day+"-"+comicObj.year+"</br>");
-        $("#output").append("<img src='"+comicObj.img+"'width='100%'>"+"</br>");
+        $("#output").append("<img src='"+comicObj.img + "' width=100%>"+"</br>");
         $("#output").append(comicObj.alt);
         
     },
