@@ -26,13 +26,14 @@ $.ajax({
     // What do we do when the api call is successful
     //   all the action goes in here
     success: function(data) {
+        comicObj = data
         // do stuff
-        console.log(data);
-        $("#output").append(data.month+"-"+data.day+"-"+data.year+"</br>");
-        $("#output").append(data.title+"</br>");
-        $("#output").append(data.img+"</br>");
-        $("#output").append(data.alt);
-        $("#output").after("<img src="+">");
+        console.log(comicObj);
+        $("#output").append(comicObj.month+"-"+comicObj.day+"-"+comicObj.year+"</br>");
+        $("#output").append(comicObj.title+"</br>");
+        $("#output").append("<img src="+comicObj.hdurl+"'width='100%'>"+"</br>");
+        $("#output").append(comicObj.alt);
+        
     },
     // What we do if the api call fails
     error: function (jqXHR, textStatus, errorThrown) { 
