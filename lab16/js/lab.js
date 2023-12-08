@@ -29,9 +29,10 @@ $.ajax({
         comicObj = data
         // do stuff
         console.log(comicObj);
-        $("#output").append(comicObj.month+"-"+comicObj.day+"-"+comicObj.year+"</br>");
+       
         $("#output").append(comicObj.title+"</br>");
-        $("#output").append("<img src="+comicObj.hdurl+"'width='100%'>"+"</br>");
+        $("#output").append(comicObj.month+"-"+comicObj.day+"-"+comicObj.year+"</br>");
+        $("#output").append("<img src='"+comicObj.img+"'width='100%'>"+"</br>");
         $("#output").append(comicObj.alt);
         
     },
